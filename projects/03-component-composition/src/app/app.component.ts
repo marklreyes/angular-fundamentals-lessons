@@ -10,7 +10,7 @@ import { UserinfoComponent } from './userinfo/userinfo.component';
       <h1>Metrics and Figures Dashboard</h1>
       <section class="content">
         <article class="tile">
-          <app-userinfo></app-userinfo>
+          <app-userinfo/>
         </article>
         <article class="tile">
           <img src="/assets/noun-pie-chart-6331100-C462DD.png" height="300" />
