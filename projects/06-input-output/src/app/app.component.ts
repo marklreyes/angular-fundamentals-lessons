@@ -9,7 +9,9 @@ import { ListingComponent } from "./listing/listing.component";
     <h1>Saved Cars {{ savedCarList.length }}</h1>
     <section class="container">
       <!-- This article element represents and entire listing -->
-      <app-listing />
+       @for (carEntry of carList; track carEntry) {
+        <app-listing [car]="carEntry"/>
+       }
       <!-- end car listing markup -->
     </section>
   `,
